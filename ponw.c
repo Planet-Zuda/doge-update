@@ -23,6 +23,23 @@ char alfieRandom (){
   }
 }
 
+int miner(){
+    while(1){
+      char token;
+      int won;
+      alfiedog = alfieRandom();
+       
+      while(1){
+         token = alfieRandom();
+         if (token==alfiedog){
+            won++;
+            break;
+         }
+         
+      }
+   }
+}
+
 int main(){
-    alfiedog = alfieRandom();
+   miner();
 }
